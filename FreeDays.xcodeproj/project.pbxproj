@@ -11,6 +11,9 @@
 		75B837BE2A7B659900DEA270 /* ScheduleSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B837BD2A7B659900DEA270 /* ScheduleSectionView.swift */; };
 		75B837C02A7B659B00DEA270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B837BF2A7B659B00DEA270 /* Assets.xcassets */; };
 		75B837C32A7B659B00DEA270 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B837C22A7B659B00DEA270 /* Preview Assets.xcassets */; };
+		75B837CC2A7B7BB800DEA270 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B837CB2A7B7BB800DEA270 /* ColorExtension.swift */; };
+		75B837CF2A7B7D8A00DEA270 /* ScheduleSectionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B837CE2A7B7D8A00DEA270 /* ScheduleSectionListView.swift */; };
+		75B837D22A7B808400DEA270 /* FindFreeDaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B837D12A7B808400DEA270 /* FindFreeDaysView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		75B837BD2A7B659900DEA270 /* ScheduleSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleSectionView.swift; sourceTree = "<group>"; };
 		75B837BF2A7B659B00DEA270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75B837C22A7B659B00DEA270 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75B837CB2A7B7BB800DEA270 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		75B837CE2A7B7D8A00DEA270 /* ScheduleSectionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleSectionListView.swift; sourceTree = "<group>"; };
+		75B837D12A7B808400DEA270 /* FindFreeDaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFreeDaysView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				75B837BB2A7B659900DEA270 /* FreeDaysApp.swift */,
-				75B837BD2A7B659900DEA270 /* ScheduleSectionView.swift */,
+				75B837CA2A7B7B5600DEA270 /* Extension */,
+				75B837C92A7B7B3100DEA270 /* Screen */,
 				75B837BF2A7B659B00DEA270 /* Assets.xcassets */,
 				75B837C12A7B659B00DEA270 /* Preview Content */,
 			);
@@ -65,6 +72,40 @@
 				75B837C22A7B659B00DEA270 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75B837C92A7B7B3100DEA270 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				75B837BD2A7B659900DEA270 /* ScheduleSectionView.swift */,
+				75B837D02A7B803200DEA270 /* ScheduleSectoinDetail */,
+				75B837CD2A7B7D5700DEA270 /* ScheduleSectionList */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		75B837CA2A7B7B5600DEA270 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				75B837CB2A7B7BB800DEA270 /* ColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		75B837CD2A7B7D5700DEA270 /* ScheduleSectionList */ = {
+			isa = PBXGroup;
+			children = (
+				75B837CE2A7B7D8A00DEA270 /* ScheduleSectionListView.swift */,
+			);
+			path = ScheduleSectionList;
+			sourceTree = "<group>";
+		};
+		75B837D02A7B803200DEA270 /* ScheduleSectoinDetail */ = {
+			isa = PBXGroup;
+			children = (
+				75B837D12A7B808400DEA270 /* FindFreeDaysView.swift */,
+			);
+			path = ScheduleSectoinDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +178,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B837D22A7B808400DEA270 /* FindFreeDaysView.swift in Sources */,
+				75B837CC2A7B7BB800DEA270 /* ColorExtension.swift in Sources */,
+				75B837CF2A7B7D8A00DEA270 /* ScheduleSectionListView.swift in Sources */,
 				75B837BE2A7B659900DEA270 /* ScheduleSectionView.swift in Sources */,
 				75B837BC2A7B659900DEA270 /* FreeDaysApp.swift in Sources */,
 			);
