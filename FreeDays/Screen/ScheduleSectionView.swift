@@ -11,29 +11,36 @@ struct ScheduleSectionView: View {
     
     // MARK: - body
     var body: some View {
-        ZStack {
-            List {
-                VStack {
-                    Text("ffc")
-                }
-            }
-            VStack {
-                Spacer()
-                HStack {
-                    Spacer()
-                    Button {
+        NavigationStack {
+            ZStack {
+                List {
+                    VStack {
+                        NavigationLink {
+                            FindFreeDaysView()
+                        } label: {
+                            Text("ffc")
+                        }
 
-                    } label: {
-                        Image(systemName: "plus")
-                            .padding()
-                    }.padding()
-                        .foregroundColor(.white)
-                        .font(.title)
-                        .bold()
-                        .background(Color.customColorAddButton)
-                        .cornerRadius(50)
-                        .padding(.trailing)
-                        .padding(.bottom)
+                    }
+                }
+                VStack {
+                    Spacer()
+                    HStack {
+                        Spacer()
+                        Button {
+
+                        } label: {
+                            Image(systemName: "plus")
+                                .padding()
+                        }.padding()
+                            .foregroundColor(.white)
+                            .font(.title)
+                            .bold()
+                            .background(Color.customColorAddButton)
+                            .cornerRadius(50)
+                            .padding(.trailing)
+                            .padding(.bottom)
+                    }
                 }
             }
         }
